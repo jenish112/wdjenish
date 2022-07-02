@@ -282,6 +282,11 @@ header .navbar ul li a:hover {
     transform: scale(1.3);
 }
 
+.about .row .counter .heading span {
+    color: #f9ca24;
+    padding: 3 1rem;
+}
+
 .education .box-container {
     display: flex;
     align-items: center;
@@ -354,16 +359,40 @@ header .navbar ul li a:hover {
     margin: 1.6rem;
     overflow: hidden;
     cursor: pointer;
+    /* text-align: center; */
 }
 
+
 .portfolio .box-container .box img {
-    height: 100%;
-    width: 100%;
+    height: 80%;
+    width: 140%;
     object-fit: cover;
 }
 
-.portfolio .box-container .box:hover img {
-    transform: scale(1.2);
+.portfolio .box-container .box img:hover {
+    transform: scale(0.9);
+}
+
+.portfolio .box-container .box h5 {
+    margin-bottom: 1rem;
+    text-align: center;
+    color: wheat;
+    font-size: 20px;
+}
+
+.portfolio .box-container .box h6 {
+    margin-bottom: 1rem;
+    text-align: center;
+    color: wheat;
+    font-size: 15px;
+}
+
+.portfolio .box-container .box a {
+    background-color: #333;
+    color: #fff;
+    cursor: pointer;
+    margin-top: 0.6rem;
+    border-radius: 5rem;
 }
 
 .contact .row {
@@ -479,6 +508,12 @@ header .navbar ul li a:hover {
 
 .sm .fa-instagram {
     background: #125688;
+    color: white;
+    border-radius: .6rem;
+}
+
+.sm .fa-github {
+    background: lightslategray;
     color: white;
     border-radius: .6rem;
 }

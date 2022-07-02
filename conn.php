@@ -35,7 +35,7 @@
             width: 50%;
         }
 
-        .btn {
+        .btn1 {
             padding: .1rem 1rem;
             background-color: #333;
             color: #fff;
@@ -48,17 +48,17 @@
             border-radius: 5rem;
         }
 
-        .btn i {
+        .btn1 i {
             padding: 0 .5rem;
             font-size: 1.8rem;
         }
 
-        .btn:hover {
+        .btn1:hover {
             background-color: #f9ca24;
         }
 
         @media (max-width:991px) {
-            .btn{
+            .btn1{
                 margin-left: 50%;   
             }
         }
@@ -122,7 +122,7 @@ if (isset($_POST)) {
 ?>
 
 <body>
-    <a href="index.html"><button class="btn"> Home</button></a>
+    <a href="index.html"><button class="btn11"> Home</button></a>
 </body>
 
 </html>
