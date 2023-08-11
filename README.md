@@ -26,7 +26,7 @@ Just a few steps to get you up and running with the project:
 
 ## Support
 
-Feeling stuck? Have questions? We're here to help! Reach out to me at <a href="https://wdjenish.web.app/">`My Website`</a>.
+Feeling stuck? Have questions? We're here to help! Reach out to me at my<a href="https://wdjenish.web.app/">`Website`</a>.
 ---
 
 <p align="center">
